@@ -9,6 +9,7 @@ We never copy a skill. Every entry links to the author's repo and gives the inst
 | Skill | Use it for | Author and license | Install | Field test |
 | --- | --- | --- | --- | --- |
 | [data-quality-frameworks](https://github.com/wshobson/agents/blob/main/plugins/data-engineering/skills/data-quality-frameworks/SKILL.md) | Planning data quality checks with Great Expectations, dbt tests and data contracts | [wshobson/agents](https://github.com/wshobson/agents) · MIT | `npx skills add https://github.com/wshobson/agents --skill data-quality-frameworks` | [GA4 data in BigQuery](data-engineering/data-quality-frameworks/): its own rules caught 4 of 9 issues |
+| [bigquery-schema-design](https://github.com/justvinhhere/bigquery-expert/blob/main/skills/bigquery-schema-design/SKILL.md) | Designing BigQuery tables: partitioning, clustering, nested fields, table types, and data types | [justvinhhere/bigquery-expert](https://github.com/justvinhhere/bigquery-expert) · Apache-2.0 | `npx skills add https://github.com/justvinhhere/bigquery-expert --skill bigquery-schema-design` | [GA4 data in BigQuery](data-engineering/bigquery-schema-design/): its rules added 43 column descriptions, a date-and-time column, and 3-column sorting |
 
 ## Data analysis
 
